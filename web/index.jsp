@@ -20,7 +20,7 @@
 
   </style>
 </head>
-<body bgcolor="#282828">
+<body>
 
 <form method=get action="doGet">
   <label for="car">  Выберите марку</label>
