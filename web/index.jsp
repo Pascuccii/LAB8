@@ -3,6 +3,9 @@
 <head>
   <title>LAB_8 Skachko</title>
   <style>
+    body {
+
+    }
     input, select {
       margin: 10px;
       left:100px;
@@ -10,9 +13,11 @@
     }
     button{
       margin-left: 20px;
-      border-radius: 2px;
+      border-radius: 4px;
       padding: 10px;
+      border-color: #004577;
       background: #0075c7;
+      -webkit-text-fill-color: aliceblue;
       color: white;
       left:100px;
       top:100px;

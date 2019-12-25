@@ -15,7 +15,7 @@ public class MyServlet extends HttpServlet {
 
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) {
         response.setContentType("text/html; charset=UTF8");
 
         try (PrintWriter out = response.getWriter()) {
@@ -64,6 +64,8 @@ public class MyServlet extends HttpServlet {
                     break;
             }
             out.println("</body></html>");
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }
